@@ -1,0 +1,25 @@
+(	
+	link1(gauss_percents(20.6,-4,+2)) * 648.7 + 
+	link2(gauss_percents(30,-4,+2)) * (1240+483.8) +
+	link3(gauss_percents(262.5,-4,+2)) * gauss_down_up(2310-500,-2,+2) +
+	link4(gauss_percents(75.5,-4,+2)) * (2310+471) +
+	link5(gauss_percents(263,-4,+2)) * (3160+501) +
+	link6(gauss_down_up(1240,-17,+15)) * gauss_down_up(4390+1465,-30,+30) +
+	link7(gauss_percents(134.8,-4,+2)) * (6775+700) +
+	link8(gauss_down_up(7675.5,-70,+70)) * gauss_down_up(7925+2152,-50,+50) +
+	link9(gauss_percents(212,-4,+2)) * (12125+949.8) +
+	link10(gauss_percents(50.8,-4,+2)) * (7925-40)
+)
+/
+(
+	link1(gauss_percents(20.6,-4,+2)) + 
+	link2(gauss_percents(30,-4,+2)) +
+	link3(gauss_percents(262.5,-4,+2)) +
+	link4(gauss_percents(75.5,-4,+2)) +
+	link5(gauss_percents(263,-4,+2)) +
+	link6(gauss_down_up(1240,-17,+15)) +
+	link7(gauss_percents(134.8,-4,+2)) +
+	link8(gauss_down_up(7675.5,-70,+70)) +
+	link9(gauss_percents(212,-4,+2)) +
+	link10(gauss_percents(50.8,-4,+2))
+)

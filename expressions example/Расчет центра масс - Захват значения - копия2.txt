@@ -1,0 +1,115 @@
+((	
+    link1(gauss_percents(15.6,-4,+2)) * gauss_down_up(322,-0.5,+0.5) +
+    link2(gauss_percents(23,-2,+1)) * (gauss_down_up(752,-0.7,+0.7) + 
+        gauss_down_up(434,-3,+1)) + 
+    link3(gauss_percents(55,-4,+2)) * (gauss_down_up(752,-0.7,+0.7) + 
+        gauss_down_up(798,-0.8,0) + gauss_down_up(739,-5,0)) +
+    link4(gauss_down_up(260,-3,+4)) * (gauss_down_up(752,-0.7,+0.7) + 
+        gauss_down_up(798,-0.8,0) + gauss_down_up(1212,-2.6,0) +
+        gauss_down_up(1455,0,+6)) +
+    link5(gauss_percents(74,-4,+2)) * (gauss_down_up(752,-0.7,+0.7) + 
+        gauss_down_up(798,-0.8,0) + gauss_down_up(1212,-2.6,0) +
+        gauss_down_up(2414,+1,+2.6) + gauss_down_up(443,-4,+4)) +
+    link6(gauss_down_up(587,-18,+18)) * (gauss_down_up(752,-0.7,+0.7) + 
+        gauss_down_up(798,-0.8,0) + gauss_down_up(1212,-2.6,0) +
+        gauss_down_up(2414,+1,+2.6) + gauss_down_up(934,-0.9,0) +
+        gauss_down_up(1959,-18,+7)) +
+    link7(gauss_percents(61,-4,+2)) * (gauss_down_up(752,-0.7,+0.7) + 
+        gauss_down_up(798,-0.8,0) + gauss_down_up(1212,-2.6,0) +
+        gauss_down_up(2414,+1,+2.6) + gauss_down_up(934,-0.9,0) +
+        gauss_down_up(3743,-4,+3) + gauss_down_up(523,-30,+20)) +
+    link8(gauss_percents(15.6,-4,+2)) * gauss_down_up(322,-0.5,+0.5) +
+    link9(gauss_percents(23,-2,+1)) * (gauss_down_up(752,-0.7,+0.7) + 
+        gauss_down_up(434,-3,+1)) + 
+    link10(gauss_percents(55,-4,+2)) * (gauss_down_up(752,-0.7,+0.7) + 
+        gauss_down_up(798,-0.8,0) + gauss_down_up(739,-5,0)) +
+    link11(gauss_down_up(260,-3,+4)) * (gauss_down_up(752,-0.7,+0.7) + 
+        gauss_down_up(798,-0.8,0) + gauss_down_up(1212,-2.6,0) +
+        gauss_down_up(1455,0,+6)) +
+    link12(gauss_percents(74,-4,+2)) * (gauss_down_up(752,-0.7,+0.7) + 
+        gauss_down_up(798,-0.8,0) + gauss_down_up(1212,-2.6,0) +
+        gauss_down_up(2414,+1,+2.6) + gauss_down_up(443,-4,+4)) +
+    link13(gauss_down_up(587,-18,+18)) * (gauss_down_up(752,-0.7,+0.7) + 
+        gauss_down_up(798,-0.8,0) + gauss_down_up(1212,-2.6,0) +
+        gauss_down_up(2414,+1,+2.6) + gauss_down_up(934,-0.9,0) +
+        gauss_down_up(1959,-18,+7)) +
+    link14(gauss_percents(61,-4,+2)) * (gauss_down_up(752,-0.7,+0.7) + 
+        gauss_down_up(798,-0.8,0) + gauss_down_up(1212,-2.6,0) +
+        gauss_down_up(2414,+1,+2.6) + gauss_down_up(934,-0.9,0) +
+        gauss_down_up(3743,-4,+3) + gauss_down_up(523,-30,+20))
+)
+/
+(
+	link1(gauss_percents(15.6,-4,+2)) + 
+	link2(gauss_percents(23,-2,+1)) +
+	link3(gauss_percents(55,-4,+2)) +
+	link4(gauss_down_up(260,-3,+4)) +
+	link5(gauss_percents(74,-4,+2)) +
+	link6(gauss_down_up(587,-18,+18)) +
+	link7(gauss_percents(61,-4,+2)) +
+	link8(gauss_percents(15.6,-4,+2)) + 
+	link9(gauss_percents(23,-2,+1)) +
+	link10(gauss_percents(55,-4,+2)) +
+	link11(gauss_down_up(260,-3,+4)) +
+	link12(gauss_percents(74,-4,+2)) +
+	link13(gauss_down_up(587,-18,+18)) +
+	link14(gauss_percents(61,-4,+2))
+)
++
+(	
+    link1(gauss_percents(15.6,-4,+2)) * gauss_down_up(322,-0.5,+0.5) +
+    link2(gauss_percents(23,-2,+1)) * (gauss_down_up(752,-0.7,+0.7) + 
+        gauss_down_up(434,-3,+1)) + 
+    link3(gauss_percents(55,-4,+2)) * (gauss_down_up(752,-0.7,+0.7) + 
+        gauss_down_up(798,-0.8,0) + gauss_down_up(739,-5,0)) +
+    link4(gauss_down_up(260,-3,+4)) * (gauss_down_up(752,-0.7,+0.7) + 
+        gauss_down_up(798,-0.8,0) + gauss_down_up(1212,-2.6,0) +
+        gauss_down_up(1455,0,+6)) +
+    link5(gauss_percents(74,-4,+2)) * (gauss_down_up(752,-0.7,+0.7) + 
+        gauss_down_up(798,-0.8,0) + gauss_down_up(1212,-2.6,0) +
+        gauss_down_up(2414,+1,+2.6) + gauss_down_up(443,-4,+4)) +
+    link6(gauss_down_up(587,-18,+18)) * (gauss_down_up(752,-0.7,+0.7) + 
+        gauss_down_up(798,-0.8,0) + gauss_down_up(1212,-2.6,0) +
+        gauss_down_up(2414,+1,+2.6) + gauss_down_up(934,-0.9,0) +
+        gauss_down_up(1959,-18,+7)) +
+    link7(gauss_percents(61,-4,+2)) * (gauss_down_up(752,-0.7,+0.7) + 
+        gauss_down_up(798,-0.8,0) + gauss_down_up(1212,-2.6,0) +
+        gauss_down_up(2414,+1,+2.6) + gauss_down_up(934,-0.9,0) +
+        gauss_down_up(3743,-4,+3) + gauss_down_up(523,-30,+20)) +
+    link8(gauss_percents(15.6,-4,+2)) * gauss_down_up(322,-0.5,+0.5) +
+    link9(gauss_percents(23,-2,+1)) * (gauss_down_up(752,-0.7,+0.7) + 
+        gauss_down_up(434,-3,+1)) + 
+    link10(gauss_percents(55,-4,+2)) * (gauss_down_up(752,-0.7,+0.7) + 
+        gauss_down_up(798,-0.8,0) + gauss_down_up(739,-5,0)) +
+    link11(gauss_down_up(260,-3,+4)) * (gauss_down_up(752,-0.7,+0.7) + 
+        gauss_down_up(798,-0.8,0) + gauss_down_up(1212,-2.6,0) +
+        gauss_down_up(1455,0,+6)) +
+    link12(gauss_percents(74,-4,+2)) * (gauss_down_up(752,-0.7,+0.7) + 
+        gauss_down_up(798,-0.8,0) + gauss_down_up(1212,-2.6,0) +
+        gauss_down_up(2414,+1,+2.6) + gauss_down_up(443,-4,+4)) +
+    link13(gauss_down_up(587,-18,+18)) * (gauss_down_up(752,-0.7,+0.7) + 
+        gauss_down_up(798,-0.8,0) + gauss_down_up(1212,-2.6,0) +
+        gauss_down_up(2414,+1,+2.6) + gauss_down_up(934,-0.9,0) +
+        gauss_down_up(1959,-18,+7)) +
+    link14(gauss_percents(61,-4,+2)) * (gauss_down_up(752,-0.7,+0.7) + 
+        gauss_down_up(798,-0.8,0) + gauss_down_up(1212,-2.6,0) +
+        gauss_down_up(2414,+1,+2.6) + gauss_down_up(934,-0.9,0) +
+        gauss_down_up(3743,-4,+3) + gauss_down_up(523,-30,+20))
+)
+/
+(
+	link1(gauss_percents(15.6,-4,+2)) + 
+	link2(gauss_percents(23,-2,+1)) +
+	link3(gauss_percents(55,-4,+2)) +
+	link4(gauss_down_up(260,-3,+4)) +
+	link5(gauss_percents(74,-4,+2)) +
+	link6(gauss_down_up(587,-18,+18)) +
+	link7(gauss_percents(61,-4,+2)) +
+	link8(gauss_percents(15.6,-4,+2)) + 
+	link9(gauss_percents(23,-2,+1)) +
+	link10(gauss_percents(55,-4,+2)) +
+	link11(gauss_down_up(260,-3,+4)) +
+	link12(gauss_percents(74,-4,+2)) +
+	link13(gauss_down_up(587,-18,+18)) +
+	link14(gauss_percents(61,-4,+2))
+)) / 2

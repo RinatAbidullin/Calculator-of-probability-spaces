@@ -1,0 +1,40 @@
+# Project: VariableExpressions
+# Makefile created by Dev-C++ 5.11
+
+CPP      = g++.exe -D__DEBUG__
+CC       = gcc.exe -D__DEBUG__
+WINDRES  = windres.exe
+OBJ      = main.o gauss.o tinyexpr.o holdvar.o helpfunction.o
+LINKOBJ  = main.o gauss.o tinyexpr.o holdvar.o helpfunction.o
+LIBS     = -L"C:/Portable/Dev-Cpp/MinGW64/lib" -L"C:/Portable/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc -fopenmp -g3
+INCS     = -I"C:/Portable/Dev-Cpp/MinGW64/include" -I"C:/Portable/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Portable/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Portable/Dev-Cpp/MinGW64/include/gsl"
+CXXINCS  = -I"C:/Portable/Dev-Cpp/MinGW64/include" -I"C:/Portable/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Portable/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Portable/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"
+BIN      = VariableExpressions.exe
+CXXFLAGS = $(CXXINCS) -g3 -std=c99
+CFLAGS   = $(INCS) -g3 -std=c99
+RM       = rm.exe -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CC) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+main.o: main.c
+	$(CC) -c main.c -o main.o $(CFLAGS)
+
+gauss.o: gauss.c
+	$(CC) -c gauss.c -o gauss.o $(CFLAGS)
+
+tinyexpr.o: tinyexpr.c
+	$(CC) -c tinyexpr.c -o tinyexpr.o $(CFLAGS)
+
+holdvar.o: holdvar.c
+	$(CC) -c holdvar.c -o holdvar.o $(CFLAGS)
+
+helpfunction.o: helpfunction.c
+	$(CC) -c helpfunction.c -o helpfunction.o $(CFLAGS)

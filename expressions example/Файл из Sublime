@@ -1,0 +1,2 @@
+(gdu(1.5,-1,+1) * gpp(5,-1,+1)) / gpp(1,-4,-2) + gdu(pow(5.5,2),-10,+10)
+- v_intersection_cylinders(gdu(1.6, 0, +0.14), link4(gdu(6, -0.04, -0.01)) )

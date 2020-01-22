@@ -1,0 +1,1 @@
+v_vruncated_cone(70,50,30)

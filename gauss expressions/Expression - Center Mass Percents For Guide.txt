@@ -1,0 +1,14 @@
+(	
+	gauss_percents(20,-4,+2) * gauss_down_up(520,-1.5,+1) + 
+	gauss_percents(260,-4,+2) * gauss_down_up(2500,-2,+2) +
+	gauss_down_up(1230,-17,+15) * gauss_down_up(5900,-30,+30) +
+	gauss_down_up(7510,-70,+70) * gauss_down_up(9800,-50,+30)
+)
+/
+(
+	gauss_percents(20,-4,+2) + 
+	gauss_percents(260,-4,+2) +
+	gauss_down_up(1230,-17,+15) +
+	gauss_down_up(7510,-70,+70)
+
+)

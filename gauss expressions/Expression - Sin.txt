@@ -1,0 +1,1 @@
+sin(gauss(grad2rad(44),grad2rad(46)))

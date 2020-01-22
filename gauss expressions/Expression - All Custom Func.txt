@@ -1,0 +1,2 @@
+sin(gauss(grad2rad(44),grad2rad(46))) * gauss_percents(20.6,-4,+2) + gauss_down_up(1240,-17,+15) 
+- gauss(10,15) + ost_bevel_and_rounded_radius(10) + ost_not_hole_and_shaft(0.51) - rad2grad(asin(1))

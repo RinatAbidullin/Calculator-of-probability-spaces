@@ -1,0 +1,12 @@
+(
+v_cylinder(link2(gdu(5.9, -0.18, 0)), gdu(5, -0.2, +0.2) - link1(gdu(4, 0, +0.25)) )
++ v_cylinder(gdu(5, -0.18, 0), link1(gdu(4, 0, +0.25)) )
+- v_cylinder(link2(gdu(5.9, -0.18, 0)), gdu(0.5, -0.2, +0.2) ) / 2
++ v_cylinder(gdu(10, -0.22, 0), gdu(2, -0.25, 0) )
++ v_cylinder(link4(gdu(6, -0.04, -0.01)), gdu(41, -0.3, +0.3) - link3(gdu(5, -0.2, +0.2)) )
+- v_intersection_cylinders(gdu(1.6, 0, +0.14), link4(gdu(6, -0.04, -0.01)) )
++ v_cylinder(gdu(5, -0.18, 0), link5(gdu(4, 0, +0.25)) )
++ v_cylinder(link6(gdu(5.9, -0.18, 0)), link3(gdu(5, -0.2, +0.2)) - link5(gdu(4, 0, +0.25)) )
+- v_cylinder(link6(gdu(5.9, -0.18, 0)), gdu(0.5, -0.2, +0.2) ) / 2
+)
+* 7856 / pow(1000,3)

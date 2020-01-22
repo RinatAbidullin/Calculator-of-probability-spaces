@@ -1,0 +1,37 @@
+gauss(min, max) - возвращает случайное число из диапазона [min, max] в соответствии с нормальным законом распределения
+
+Операторы
++	сложение
+-	вычитание
+* 	умножение
+/ 	деление
+^ 	возведение в степень
+%	отстаток от деления
+
+Константы
+pi
+e	
+
+Функции
+abs (calls to fabs)
+acos
+asin
+atan
+atan2
+ceil
+cos
+cosh
+exp
+floor
+ln (calls to log)
+log (calls to log10 by default, see below)
+log10
+pow
+sin
+sinh
+sqrt
+tan
+tanh
+fac (factorials e.g. fac 5 == 120)
+ncr (combinations e.g. ncr(6,2) == 15)
+npr (permutations e.g. npr(6,2) == 30)
