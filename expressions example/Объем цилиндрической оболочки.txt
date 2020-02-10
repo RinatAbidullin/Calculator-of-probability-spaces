@@ -1,0 +1,1 @@
+v_cylindrical_shell(70,50,gdu(100,-0.01,+0.01))

@@ -1,0 +1,1 @@
+v_truncated_conical_shell(50,70,60,80,50)
